@@ -1,0 +1,113 @@
+﻿CityName,popgrowthrate,industryindex,pop2020,color
+Barnsley,-1.368 ,0.700 ,57700 ,lower
+Basildon,6.667 ,0.662 ,73600 ,upper
+Basingstoke,4.783 ,0.800 ,70100 ,upper
+Bath,5.023 ,0.859 ,69000 ,upper
+Bedford,40.647 ,0.777 ,60900 ,upper
+Birkenhead,-16.874 ,0.745 ,46800 ,lower
+Birmingham,1.849 ,0.815 ,738000 ,upper
+Blackburn,-6.667 ,0.772 ,68600 ,lower
+Blackpool,-6.039 ,0.744 ,80900 ,lower
+Bolton,-3.410 ,0.783 ,104800 ,lower
+Bournemouth,1.175 ,0.767 ,129200 ,upper
+Bracknell,-1.673 ,0.766 ,52900 ,lower
+Bradford,-5.082 ,0.763 ,196100 ,lower
+Brighton and Hove,5.986 ,0.886 ,185900 ,upper
+Bristol,3.597 ,0.788 ,397400 ,upper
+Burnley,-5.071 ,0.702 ,46800 ,lower
+Burton upon Trent,-5.769 ,0.734 ,44100 ,lower
+Bury,6.339 ,0.758 ,52000 ,upper
+Cambridge,-0.394 ,0.828 ,101200 ,lower
+Cardiff,0.995 ,0.816 ,233500 ,upper
+Carlisle,-2.548 ,0.785 ,45900 ,lower
+Chatham,-15.950 ,0.690 ,46900 ,lower
+Chelmsford,2.483 ,0.773 ,74300 ,upper
+Cheltenham,-0.980 ,0.806 ,70700 ,lower
+Chester,-5.114 ,0.815 ,50100 ,lower
+Chesterfield,-13.297 ,0.701 ,47600 ,lower
+Colchester,24.101 ,0.746 ,93200 ,upper
+Coventry,6.859 ,0.781 ,252400 ,upper
+Crawley,3.944 ,0.777 ,73800 ,upper
+Darlington,-1.926 ,0.726 ,56000 ,lower
+Derby,2.257 ,0.763 ,167600 ,upper
+Doncaster,-5.761 ,0.760 ,63800 ,lower
+Dudley,11.499 ,0.669 ,54300 ,upper
+Eastbourne,7.351 ,0.746 ,70100 ,upper
+Exeter,5.479 ,0.759 ,84700 ,upper
+Gateshead,5.922 ,0.765 ,78700 ,upper
+Gillingham,-5.594 ,0.681 ,67500 ,lower
+Gloucester,7.237 ,0.722 ,97800 ,upper
+Grimsby,4.664 ,0.708 ,56100 ,upper
+Guildford,1.370 ,0.847 ,59200 ,upper
+Halifax,11.111 ,0.739 ,53000 ,upper
+Harlow,-0.730 ,0.699 ,54400 ,lower
+Harrogate,0.696 ,0.824 ,43400 ,upper
+Hartlepool,-2.518 ,0.713 ,54200 ,lower
+Hastings,-0.867 ,0.719 ,57200 ,lower
+Hemel Hempstead,8.052 ,0.729 ,67100 ,upper
+High Wycombe,-10.886 ,0.743 ,57300 ,lower
+Huddersfield,9.927 ,0.769 ,120700 ,upper
+Ipswich,6.430 ,0.762 ,96000 ,upper
+Kingston upon Hull,-1.876 ,0.702 ,183100 ,lower
+Leeds,-10.664 ,0.834 ,308300 ,lower
+Leicester,1.819 ,0.788 ,268700 ,upper
+Lincoln,2.177 ,0.731 ,70400 ,upper
+Liverpool,1.107 ,0.821 ,383700 ,upper
+London,3.216 ,0.845 ,6079000 ,upper
+Luton,3.989 ,0.757 ,146000 ,upper
+Maidstone,6.267 ,0.728 ,79700 ,upper
+Manchester,-1.398 ,0.871 ,373800 ,lower
+Mansfield,-7.002 ,0.675 ,51800 ,lower
+Middlesbrough,2.405 ,0.748 ,110700 ,upper
+Milton Keynes,-4.686 ,0.846 ,113900 ,lower
+Newcastle upon Tyne,-3.356 ,0.829 ,184300 ,lower
+Newcastle-under-Lyme,-16.378 ,0.746 ,43400 ,lower
+Newport,9.542 ,0.785 ,83800 ,upper
+Northampton,3.039 ,0.768 ,145800 ,upper
+Norwich,7.309 ,0.766 ,129200 ,upper
+Nottingham,0.048 ,0.797 ,207800 ,upper
+Nuneaton,-20.679 ,0.737 ,49100 ,lower
+Oldham,3.540 ,0.745 ,70200 ,upper
+Oxford,-0.957 ,0.857 ,113800 ,lower
+Peterborough,-7.293 ,0.781 ,101700 ,lower
+Plymouth,-0.995 ,0.692 ,169200 ,lower
+Poole,-5.973 ,0.697 ,91300 ,lower
+Portsmouth,1.985 ,0.702 ,154100 ,upper
+Preston,-6.977 ,0.777 ,84000 ,lower
+Reading,-3.744 ,0.839 ,159400 ,lower
+Redditch,2.524 ,0.698 ,52800 ,upper
+Rochdale,-2.310 ,0.727 ,71900 ,lower
+Rotherham,-14.912 ,0.695 ,58200 ,lower
+Salford,2.520 ,0.895 ,65100 ,upper
+Scunthorpe,-18.042 ,0.718 ,42700 ,lower
+Sheffield,5.217 ,0.758 ,363000 ,upper
+Shrewsbury,5.791 ,0.750 ,47500 ,upper
+Slough,1.998 ,0.812 ,102100 ,upper
+Solihull,-2.144 ,0.802 ,63900 ,lower
+South Shields,-1.322 ,0.718 ,44800 ,lower
+Southampton,5.609 ,0.772 ,188300 ,upper
+Southend-on-Sea,-1.399 ,0.748 ,112800 ,lower
+Southport,0.931 ,0.771 ,54200 ,upper
+St Albans,2.584 ,0.860 ,51600 ,upper
+St Helens,1.429 ,0.743 ,63900 ,upper
+Stevenage,-8.426 ,0.745 ,57600 ,lower
+Stockport,-1.207 ,0.782 ,65500 ,lower
+Stockton-on-Tees,-14.071 ,0.730 ,45800 ,lower
+Stoke-on-Trent,5.168 ,0.701 ,175000 ,upper
+Sunderland,-6.937 ,0.750 ,103300 ,lower
+Sutton Coldfield,20.690 ,0.793 ,80500 ,upper
+Swansea,-5.438 ,0.757 ,111300 ,lower
+Swindon,-2.753 ,0.768 ,120100 ,lower
+Telford,-1.314 ,0.707 ,90100 ,lower
+Wakefield,0.142 ,0.751 ,70500 ,upper
+Walsall,-13.095 ,0.802 ,36500 ,lower
+Warrington,-3.145 ,0.792 ,107800 ,lower
+Watford,-6.095 ,0.779 ,90900 ,lower
+West Bromwich,2.558 ,0.733 ,44100 ,upper
+Weston-Super-Mare,18.005 ,0.735 ,48500 ,upper
+Wigan,9.237 ,0.711 ,54400 ,upper
+Woking,0.470 ,0.831 ,64100 ,upper
+Wolverhampton,5.217 ,0.746 ,157300 ,upper
+Worcester,3.788 ,0.786 ,68500 ,upper
+Worthing,5.640 ,0.766 ,69300 ,upper
+York,-2.047 ,0.816 ,105300 ,lower
