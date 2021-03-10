@@ -1,0 +1,113 @@
+CityName,popgrowthrate,industryindex,pop2020,color
+Barnsley,-0.0137,0.700,"57,700",lower
+Basildon,0.0667,0.662,"73,600",upper
+Basingstoke,0.0478,0.800,"70,100",upper
+Bath,0.0502,0.859,"69,000",upper
+Bedford,0.4065,0.777,"60,900",upper
+Birkenhead,-0.1687,0.745,"46,800",lower
+Birmingham,0.0185,0.815,"738,000",upper
+Blackburn,-0.0667,0.772,"68,600",lower
+Blackpool,-0.0604,0.744,"80,900",lower
+Bolton,-0.0341,0.783,"104,800",lower
+Bournemouth,0.0117,0.767,"129,200",upper
+Bracknell,-0.0167,0.766,"52,900",lower
+Bradford,-0.0508,0.763,"196,100",lower
+Brighton and Hove,0.0599,0.886,"185,900",upper
+Bristol,0.0360,0.788,"397,400",upper
+Burnley,-0.0507,0.702,"46,800",lower
+Burton upon Trent,-0.0577,0.734,"44,100",lower
+Bury,0.0634,0.758,"52,000",upper
+Cambridge,-0.0039,0.828,"101,200",lower
+Cardiff,0.0099,0.816,"233,500",upper
+Carlisle,-0.0255,0.785,"45,900",lower
+Chatham,-0.1595,0.690,"46,900",lower
+Chelmsford,0.0248,0.773,"74,300",upper
+Cheltenham,-0.0098,0.806,"70,700",lower
+Chester,-0.0511,0.815,"50,100",lower
+Chesterfield,-0.1330,0.701,"47,600",lower
+Colchester,0.2410,0.746,"93,200",upper
+Coventry,0.0686,0.781,"252,400",upper
+Crawley,0.0394,0.777,"73,800",upper
+Darlington,-0.0193,0.726,"56,000",lower
+Derby,0.0226,0.763,"167,600",upper
+Doncaster,-0.0576,0.760,"63,800",lower
+Dudley,0.1150,0.669,"54,300",upper
+Eastbourne,0.0735,0.746,"70,100",upper
+Exeter,0.0548,0.759,"84,700",upper
+Gateshead,0.0592,0.765,"78,700",upper
+Gillingham,-0.0559,0.681,"67,500",lower
+Gloucester,0.0724,0.722,"97,800",upper
+Grimsby,0.0466,0.708,"56,100",upper
+Guildford,0.0137,0.847,"59,200",upper
+Halifax,0.1111,0.739,"53,000",upper
+Harlow,-0.0073,0.699,"54,400",lower
+Harrogate,0.0070,0.824,"43,400",upper
+Hartlepool,-0.0252,0.713,"54,200",lower
+Hastings,-0.0087,0.719,"57,200",lower
+Hemel Hempstead,0.0805,0.729,"67,100",upper
+High Wycombe,-0.1089,0.743,"57,300",lower
+Huddersfield,0.0993,0.769,"120,700",upper
+Ipswich,0.0643,0.762,"96,000",upper
+Kingston upon Hull,-0.0188,0.702,"183,100",lower
+Leeds,-0.1066,0.834,"308,300",lower
+Leicester,0.0182,0.788,"268,700",upper
+Lincoln,0.0218,0.731,"70,400",upper
+Liverpool,0.0111,0.821,"383,700",upper
+London,0.0322,0.845,"6,079,000",upper
+Luton,0.0399,0.757,"146,000",upper
+Maidstone,0.0627,0.728,"79,700",upper
+Manchester,-0.0140,0.871,"373,800",lower
+Mansfield,-0.0700,0.675,"51,800",lower
+Middlesbrough,0.0241,0.748,"110,700",upper
+Milton Keynes,-0.0469,0.846,"113,900",lower
+Newcastle upon Tyne,-0.0336,0.829,"184,300",lower
+Newcastle-under-Lyme,-0.1638,0.746,"43,400",lower
+Newport,0.0954,0.785,"83,800",upper
+Northampton,0.0304,0.768,"145,800",upper
+Norwich,0.0731,0.766,"129,200",upper
+Nottingham,0.0005,0.797,"207,800",upper
+Nuneaton,-0.2068,0.737,"49,100",lower
+Oldham,0.0354,0.745,"70,200",upper
+Oxford,-0.0096,0.857,"113,800",lower
+Peterborough,-0.0729,0.781,"101,700",lower
+Plymouth,-0.0099,0.692,"169,200",lower
+Poole,-0.0597,0.697,"91,300",lower
+Portsmouth,0.0199,0.702,"154,100",upper
+Preston,-0.0698,0.777,"84,000",lower
+Reading,-0.0374,0.839,"159,400",lower
+Redditch,0.0252,0.698,"52,800",upper
+Rochdale,-0.0231,0.727,"71,900",lower
+Rotherham,-0.1491,0.695,"58,200",lower
+Salford,0.0252,0.895,"65,100",upper
+Scunthorpe,-0.1804,0.718,"42,700",lower
+Sheffield,0.0522,0.758,"363,000",upper
+Shrewsbury,0.0579,0.750,"47,500",upper
+Slough,0.0200,0.812,"102,100",upper
+Solihull,-0.0214,0.802,"63,900",lower
+South Shields,-0.0132,0.718,"44,800",lower
+Southampton,0.0561,0.772,"188,300",upper
+Southend-on-Sea,-0.0140,0.748,"112,800",lower
+Southport,0.0093,0.771,"54,200",upper
+St Albans,0.0258,0.860,"51,600",upper
+St Helens,0.0143,0.743,"63,900",upper
+Stevenage,-0.0843,0.745,"57,600",lower
+Stockport,-0.0121,0.782,"65,500",lower
+Stockton-on-Tees,-0.1407,0.730,"45,800",lower
+Stoke-on-Trent,0.0517,0.701,"175,000",upper
+Sunderland,-0.0694,0.750,"103,300",lower
+Sutton Coldfield,0.2069,0.793,"80,500",upper
+Swansea,-0.0544,0.757,"111,300",lower
+Swindon,-0.0275,0.768,"120,100",lower
+Telford,-0.0131,0.707,"90,100",lower
+Wakefield,0.0014,0.751,"70,500",upper
+Walsall,-0.1310,0.802,"36,500",lower
+Warrington,-0.0314,0.792,"107,800",lower
+Watford,-0.0610,0.779,"90,900",lower
+West Bromwich,0.0256,0.733,"44,100",upper
+Weston-Super-Mare,0.1800,0.735,"48,500",upper
+Wigan,0.0924,0.711,"54,400",upper
+Woking,0.0047,0.831,"64,100",upper
+Wolverhampton,0.0522,0.746,"157,300",upper
+Worcester,0.0379,0.786,"68,500",upper
+Worthing,0.0564,0.766,"69,300",upper
+York,-0.0205,0.816,"105,300",lower
