@@ -1,4 +1,4 @@
-"""CityName""","""popgrowthrate""","""industryindex""","""pop2020""","""color"""
+"CityName","popgrowthrate","industryindex","pop2020","color"
 """Barnsley""",-1.368,0.700,57700,"""lower"""
 """Basildon""",6.667,0.662,73600,"""upper"""
 """Basingstoke""",4.783,0.800,70100,"""upper"""
