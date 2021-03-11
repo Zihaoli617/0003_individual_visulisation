@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- Load color scale -->
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+<div id="header">
+    <h1>D3 Bubble Chart with population and industry index - Shrinking Cities in the UK</h1>
+    <p>The visualization uses one-sixth of London's population due to its oversized data.</p>
+    <p>The vertical coordinate represents the population growth rate from 2016 to 2020.</p>
+    <p>The horizontal coordinates represent urban industrial structure indicators in 2020 (see PDF report for exact formula).</p>
+    <p>Green indicates shrinking cities.</p>
+</div>
+
+<div id="my_dataviz"></div>
+
+<style>
+#header {
+            margin: auto;
+            width: 50%;
+        }
+        
+h1 {
+            margin: auto;
+            padding: 10px 0 0 0;
+            font: bold 25px Verdana;
+        }
+p {
+            margin: 10px 15px 15px 20px;
+            padding: 0;
+            font: 13px Verdana;
+        }
+        
+.bubbles {
+  stroke-width: 2px;
+  stroke: white;
+}
+.bubbles:hover {
+  stroke: black;
+}
+</style>
+
+<script>
+
+// set the dimensions and margins of the graph
+var margin = {top: 10, right: 5, bottom: 30, left: 200},
+    width = 1200 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svg = d3.select("#my_dataviz")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+
+//Read the data
+d3.csv("https://raw.githubusercontent.com/Zihaoli617/0003_individual_visulisation/main/finalcitydata.csv",function(data){       
+    
+  var x = d3.scaleLinear()
+    
+    .domain([0.65, 0.9])
+    .range([ 0, width ]);
+  svg.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(x));
+
+  var y = d3.scaleLinear()
+    .domain([-25, 45])
+    .range([ height, 0]);
+  svg.append("g")
+    .call(d3.axisLeft(y));
+
+  // bubble size
+  var z = d3.scaleLinear()
+    .domain([30000, 1500000])
+    .range([ 4, 50]);
+
+  // bubble color
+  var myColor = d3.scaleOrdinal()
+    .domain(["lower", "upper"])
+    .range(d3.schemeSet2);
+
+  // Create a tooltip div that is hidden by default:
+  var tooltip = d3.select("#my_dataviz")
+    .append("div")
+      .style("opacity", 0)
+      .attr("class", "tooltip")
+      .style("background-color", "black")
+      .style("border-radius", "5px")
+      .style("padding", "10px")
+      .style("color", "white")
+
+  // Create 3 functions to show and update (when mouse move but stay on same circle)
+  var showTooltip = function(d) {
+    tooltip
+      .transition()
+      .duration(200)
+    tooltip
+      .style("opacity", 1)
+      .html("Country: " + d.CityName)
+      .style("left", (d3.mouse(this)[0]+30) + "px")
+      .style("top", (d3.mouse(this)[1]+30) + "px")
+  }
+  var moveTooltip = function(d) {
+    tooltip
+      .style("left", (d3.mouse(this)[0]+30) + "px")
+      .style("top", (d3.mouse(this)[1]+30) + "px")
+  }
+  var hideTooltip = function(d) {
+    tooltip
+      .transition()
+      .duration(200)
+      .style("opacity", 0)
+  }
+
+  svg.append('g')
+    .selectAll("dot")
+    .data(data)
+    .enter()
+    .append("circle")
+      .attr("class", "bubbles")
+      .attr("cx", function (d) { return x(d.industryindex); } )
+      .attr("cy", function (d) { return y(d.popgrowthrate); } )
+      .attr("r", function (d) { return z(d.pop2020); } )
+      .style("fill", function (d) { return myColor(d.color); } )
+   
+ // Trigger the functions
+    .on("mouseover", showTooltip )
+    .on("mousemove", moveTooltip )
+    .on("mouseleave", hideTooltip )
+
+  })
+</script>
+
+
